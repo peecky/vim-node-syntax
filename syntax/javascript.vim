@@ -2,5 +2,5 @@
 " https://github.com/peecky/vim-node-syntax
 
 " http://nodejs.org/api/globals.html
-syn keyword javaScriptGlobal	require module exports process console __filename __dirname global
-syn keyword Type	Buffer
+syn keyword javaScriptGlobal	require module exports process console __filename __dirname global Math JSON
+syn keyword javaScriptType	Error Buffer
